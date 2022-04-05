@@ -12,7 +12,6 @@ class ChildWindow:
         self.root.geometry(f"{width}x{height}+{left}+{bottom}")
         self.root.resizable(resizeable[0], resizeable[1])
         self.text = text
-        # Label(self.root, text=text, justify=LEFT).grid(row=0, column=0, sticky=W)
 
     def run(self, text):
         self.draw(text)
